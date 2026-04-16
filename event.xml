@@ -1,0 +1,43 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2026-04-16T23:29:16.9320407Z" />
+    <EventRecordID>10813</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="3408" ThreadID="3884" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>windows-vmware</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2026-04-16 23:29:16.926</Data>
+    <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000001}</Data>
+    <Data Name="ProcessId">10580</Data>
+    <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="FileVersion">10.0.26100.7309 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Windows PowerShell</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">PowerShell.EXE</Data>
+    <Data Name="CommandLine">"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"</Data>
+    <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data>
+    <Data Name="User">windows-vmware\sukuna</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="LogonId">0x000000</Data>
+    <Data Name="TerminalSessionId">1</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=9E590F2F936B4982CA6E7C77A6A38DF1,SHA256=7D17056459B9CEA517B5DA515790DF351B907E516B433CAFB869ABAFF83DB648,IMPHASH=68A9FF9C8D0D4655E46E1A7A190A41D2</Data>
+    <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000002}</Data>
+    <Data Name="ParentProcessId">5584</Data>
+    <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+    <Data Name="ParentCommandLine">C:\WINDOWS\Explorer.EXE</Data>
+    <Data Name="ParentUser">windows-vmware\sukuna</Data>
+  </EventData>
+</Event>
