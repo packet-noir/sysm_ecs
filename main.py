@@ -7,7 +7,7 @@ from pprint import pprint
 def take_file():
     parser = argparse.ArgumentParser()
     parser.add_argument("directory")
-    args = parser.parse_args(["/Users/banenz/projects/sysm-ecs/event.xml"])
+    args = parser.parse_args()
     return args.directory
 
 # Ingest and Parse XML
